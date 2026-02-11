@@ -1,6 +1,6 @@
 import { HideMode } from "@/types/face-hider";
 
-export const API_URL = "http://127.0.0.1:5000/api/face-hide";
+export const API_URL = "https://api-serve-facehide.onrender.com/api/face-hide";
 export const MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024;
 export const INPUT_ACCEPT =
   "image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp";
